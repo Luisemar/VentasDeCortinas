@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VentaDeCortinas">
         <activity
+            android:name=".RegistroArticulosActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
