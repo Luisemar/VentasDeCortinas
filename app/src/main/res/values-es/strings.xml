@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">VentaDeCortinas</string>
+    <string name="Code">Codigo de venta</string>
+    <string name="Date">Fecha de abono</string>
+    <string name="Value">Valor abonado</string>
+    <string name="Register">Registrar</string>
+    <string name="Name">Nombre</string>
+    <string name="Card">Cedula</string>
+    <string name="Mail">Correo</string>
+    <string name="Password">Contraseña</string>
+    <string name="Repeat">Repite la contraseña</string>
+    <string name="Register1">Registrar</string>
+</resources>
