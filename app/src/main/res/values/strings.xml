@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">VentaDeCortinas</string>
+    <string name="Code">Sales code</string>
+    <string name="Date">Payment date</string>
+    <string name="Value">Payment value</string>
+    <string name="Register">register</string>
+    <string name="Name">Name</string>
+    <string name="Card">Identification card</string>
+    <string name="Mail">Mail</string>
+    <string name="Password">Password</string>
+    <string name="Repeat">Repeat password</string>
+    <string name="Register1">Register</string>
 </resources>
