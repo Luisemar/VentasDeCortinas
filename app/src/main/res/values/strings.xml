@@ -1,10 +1,13 @@
 <resources>
     <string name="app_name">VentaDeCortinas</string>
-    <string name="Product">Product code: </string>
-    <string name="Description">Description: </string>
-    <string name="Cost">Cost Per Mts2: </string>
-    <string name="Enter">ENTER THE ARTICLE </string>
-    <string name="Hint_Product">Product code: </string>
-    <string name="Hint_Description">Description: </string>
-    <string name="Hint_Cost">Cost Per Mts2: </string>
+    <string name="Code">Sales code</string>
+    <string name="Date">Payment date</string>
+    <string name="Value">Payment value</string>
+    <string name="Register">register</string>
+    <string name="Name">Name</string>
+    <string name="Card">Identification card</string>
+    <string name="Mail">Mail</string>
+    <string name="Password">Password</string>
+    <string name="Repeat">Repeat password</string>
+    <string name="Register1">Register</string>
 </resources>
