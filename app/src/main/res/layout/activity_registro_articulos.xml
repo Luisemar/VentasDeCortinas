@@ -7,7 +7,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".RegistroArticulosActivity">
-    
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -33,14 +33,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:text="Product code:"
-            android:textSize="25dp" />
+            android:textSize="25sp"
+            android:text="@string/Product"/>
 
         <EditText
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:hint="Codigo Producto">
+            android:hint="@string/Hint_Product">
 
         </EditText>
 
@@ -57,15 +57,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:text="Description:"
-            android:textSize="25dp"
-            />
+            android:text="@string/Description"
+            android:textSize="25sp"/>
 
         <EditText
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:hint="Codigo Producto">
+            android:hint="@string/Hint_Description">
 
         </EditText>
 
@@ -82,14 +81,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:text="Cost Per Mts2:"
-            android:textSize="25dp" />
+            android:text="@string/Cost"
+            android:textSize="25sp" />
 
         <EditText
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:hint="Codigo Producto">
+            android:hint="@string/Hint_Cost">
 
         </EditText>
 
@@ -104,7 +103,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="REGISTRAR EL ARTICULO">
+            android:text="@string/Enter">
 
         </Button>
 
