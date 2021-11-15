@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name">VentaDeCortinas</string>
+    <string name="Product">Codigo del Producto: </string>
+    <string name="Description">Descripcion: </string>
+    <string name="Cost">Costo por Mts2: </string>
+    <string name="Enter">REGISTRAR EL ARTICULO </string>
+    <string name="Hint_Product">Codigo del Producto: </string>
+    <string name="Hint_Description">Descripcion: </string>
+    <string name="Hint_Cost">Costo por Mts2: </string>
     <string name="Code">Codigo de venta</string>
     <string name="Date">Fecha de abono</string>
     <string name="Value">Valor abonado</string>
