@@ -16,7 +16,6 @@
             android:name=".OpcionesVendedorActivity"
             android:exported="false" />
         <activity
-            android:name=".RegistroAbonosActivity"
             android:exported="false" />
         <activity
             android:name=".RegistroVendedoresActivity"
