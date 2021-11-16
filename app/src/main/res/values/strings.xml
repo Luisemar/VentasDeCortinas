@@ -21,5 +21,8 @@
     <string name="Payment">Register Payment</string>
     <string name="Sales">Consult Sales (Lists)</string>
     <string name="Login">Login</string>
-
+    <string name="mail">mail</string>
+    <string name="password">password</string>
+    <string name="remember">remember password</string>
+    <string name="login">login</string>
 </resources>

@@ -21,5 +21,8 @@
     <string name="Payment">Registro Abonos</string>
     <string name="Sales">Consulta Ventas (Listas)</string>
     <string name="Login">Iniciar Sesión</string>
-
+    <string name="mail">Correo</string>
+    <string name="password">Contraseña</string>
+    <string name="remember">Recordar contaseña</string>
+    <string name="login">Iniciar sesion</string>
 </resources>
