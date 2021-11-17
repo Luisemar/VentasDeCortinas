@@ -25,4 +25,9 @@
     <string name="password">Contraseña</string>
     <string name="remember">Recordar contaseña</string>
     <string name="loginn">Iniciar sesion</string>
+    <string name="Catalogue">Catalogo</string>
+    <string name="Contact">Contactar Vendedor</string>
+    <string name="Options">Opciones Vendedor</string>
+    <string name="Login1">Ingreso Vendedor</string>
+    <string name="Registration">registro Vendedor</string>
 </resources>
