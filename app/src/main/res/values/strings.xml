@@ -25,4 +25,9 @@
     <string name="password">password</string>
     <string name="remember">remember password</string>
     <string name="loginn">login</string>
+    <string name="Catalogue">Catalogue</string>
+    <string name="Contact">contact seller</string>
+    <string name="Options">seller options</string>
+    <string name="Login1">Seller Login</string>
+    <string name="Registration">Seller Registration</string>
 </resources>
