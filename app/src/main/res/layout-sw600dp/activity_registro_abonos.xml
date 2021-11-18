@@ -9,10 +9,11 @@
 
     <ImageView
         android:id="@+id/imageView9"
-        android:layout_width="match_parent"
-        android:layout_height="211dp"
+        android:layout_width="560sp"
+        android:layout_height="300sp"
         android:layout_margin="16dp"
         app:srcCompat="@drawable/logo" />
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,7 +28,7 @@
             android:layout_height="wrap_content"
             android:text="@string/Code"
             android:textColor="@color/black"
-            android:textSize="25sp" />
+            android:textSize="35sp" />
 
         <EditText
             android:id="@+id/editTextTextPersonName5"
@@ -36,7 +37,7 @@
             android:ems="10"
             android:hint="@string/Code"
             android:inputType="textPersonName"
-            android:textSize="25sp" />
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/textView7"
@@ -45,7 +46,7 @@
             android:layout_marginTop="25dp"
             android:text="@string/Date"
             android:textColor="@color/black"
-            android:textSize="25sp" />
+            android:textSize="35sp" />
 
         <EditText
             android:id="@+id/editTextTextPersonName2"
@@ -54,7 +55,7 @@
             android:ems="10"
             android:hint="@string/Date"
             android:inputType="textPersonName"
-            android:textSize="25sp" />
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/textView9"
@@ -63,7 +64,7 @@
             android:layout_marginTop="25dp"
             android:text="@string/Value"
             android:textColor="@color/black"
-            android:textSize="25sp" />
+            android:textSize="35sp" />
 
         <EditText
             android:id="@+id/editTextTextPersonName3"
@@ -72,14 +73,16 @@
             android:ems="10"
             android:hint="@string/Value"
             android:inputType="textPersonName"
-            android:textSize="25sp" />
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
-            android:text="@string/Register" />
+            android:text="@string/Register"
+            android:textSize="35sp" />
+
     </LinearLayout>
 
 </LinearLayout>

@@ -9,8 +9,8 @@
 
     <ImageView
         android:id="@+id/imageView8"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="568dp"
+        android:layout_height="200dp"
         android:layout_margin="16dp"
         app:srcCompat="@drawable/logo" />
 
@@ -32,17 +32,16 @@
             android:layout_height="wrap_content"
             android:text="@string/Name"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="35sp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName4"
+            android:id="@+id/editTextTextPersonName11"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/Name"
             android:inputType="textPersonName"
-            android:textSize="16sp"
-            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/textView5"
@@ -51,7 +50,7 @@
             android:layout_marginTop="10sp"
             android:text="@string/Card"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="35sp" />
 
         <EditText
             android:id="@+id/editTextTextPersonName6"
@@ -60,8 +59,7 @@
             android:ems="10"
             android:hint="@string/Card"
             android:inputType="textPersonName"
-            android:textSize="15sp"
-            tools:ignore="TouchTargetSizeCheck" />
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/textView3"
@@ -70,26 +68,25 @@
             android:layout_marginTop="10sp"
             android:text="@string/Mail"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="35sp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/editTextTextPersonName4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:hint="@string/Mail"
             android:inputType="textPersonName"
-            android:textSize="15sp"
-            tools:ignore="TouchTargetSizeCheck" />
+            android:textSize="30sp" />
 
         <TextView
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15sp"
+            android:layout_marginTop="10sp"
             android:text="@string/Password"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="35dp" />
 
         <EditText
             android:id="@+id/editTextTextPassword2"
@@ -98,16 +95,16 @@
             android:ems="10"
             android:hint="@string/Password"
             android:inputType="textPassword"
-            android:textSize="16sp"
-            tools:ignore="TouchTargetSizeCheck" />
+            android:textSize="30sp" />
+
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15sp"
+            android:layout_marginTop="10sp"
             android:text="@string/Repeat"
             android:textColor="@color/black"
-            android:textSize="20dp" />
+            android:textSize="35sp" />
 
         <EditText
             android:id="@+id/editTextTextPassword"
@@ -116,16 +113,15 @@
             android:ems="10"
             android:hint="@string/Repeat"
             android:inputType="textVisiblePassword"
-            android:textSize="15sp"
-            tools:ignore="TouchTargetSizeCheck" />
+            android:textSize="30sp" />
 
         <Button
             android:id="@+id/button5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="25dp"
             android:text="@string/Register1"
-            android:textSize="20sp" />
+            android:textSize="35sp" />
 
     </LinearLayout>
 </LinearLayout>
