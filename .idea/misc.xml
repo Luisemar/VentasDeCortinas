@@ -5,6 +5,16 @@
       <map>
         <entry key="..\:/Ventas/VentaDeCortinas/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Ventas/VentasDeCortinas/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2890625" />
+        <entry key="..\:/Ventas/VentasDeCortinas/app/src/main/res/layout-land/activity_main.xml" value="0.29635416666666664" />
+        <entry key="..\:/Ventas/VentasDeCortinas/app/src/main/res/layout-land/activity_registro_articulos.xml" value="0.275" />
+        <entry key="..\:/Ventas/VentasDeCortinas/app/src/main/res/layout-sw600dp-land/activity_main.xml" value="0.29635416666666664" />
+        <entry key="..\:/Ventas/VentasDeCortinas/app/src/main/res/layout-sw600dp-land/activity_registro_articulos.xml" value="0.33" />
+        <entry key="..\:/Ventas/VentasDeCortinas/app/src/main/res/layout-sw600dp/activity_main.xml" value="0.2046875" />
+        <entry key="..\:/Ventas/VentasDeCortinas/app/src/main/res/layout-sw600dp/activity_registro_articulos.xml" value="0.33" />
+        <entry key="..\:/Ventas/VentasDeCortinas/app/src/main/res/layout-sw720dp-land/activity_main.xml" value="0.222265625" />
+        <entry key="..\:/Ventas/VentasDeCortinas/app/src/main/res/layout-sw720dp-land/activity_registro_articulos.xml" value="0.20625" />
+        <entry key="..\:/Ventas/VentasDeCortinas/app/src/main/res/layout-sw720dp/activity_main.xml" value="0.2046875" />
+        <entry key="..\:/Ventas/VentasDeCortinas/app/src/main/res/layout-sw720dp/activity_registro_articulos.xml" value="0.2046875" />
         <entry key="..\:/Ventas/VentasDeCortinas/app/src/main/res/layout/activity_consulta_ventas.xml" value="0.27291666666666664" />
         <entry key="..\:/Ventas/VentasDeCortinas/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Ventas/VentasDeCortinas/app/src/main/res/layout/activity_opciones_vendedor.xml" value="0.27291666666666664" />

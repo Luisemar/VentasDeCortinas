@@ -16,12 +16,13 @@
             android:name=".OpcionesVendedorActivity"
             android:exported="false" />
         <activity
-            android:exported="false" />
-        <activity
-            android:name=".RegistroVendedoresActivity"
+            android:name=".RegistroAbonosActivity"
             android:exported="false" />
         <activity
             android:name=".RegistroArticulosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegistroVendedoresActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
@@ -35,3 +36,4 @@
     </application>
 
 </manifest>
+

@@ -7,107 +7,85 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".RegistroArticulosActivity">
-    
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        android:layout_marginLeft="16dp"
         android:gravity="center"
-        android:layout_margin="16dp"
-        >
+        android:orientation="horizontal"
+        android:layout_marginRight="16dp">
+
         <ImageView
-            android:layout_width="300dp"
-            android:layout_height="250dp"
-            android:src="@drawable/cortinas"
-            />
+            android:id="@+id/imageView9"
+            android:layout_width="400dp"
+            android:layout_height="400dp"
+            android:layout_margin="16dp"
+            app:srcCompat="@drawable/logo" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:orientation="horizontal"
-        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
         android:layout_margin="16dp">
 
+
+
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
-            android:textSize="25sp"
+            android:textSize="45sp"
             android:text="@string/Product"/>
 
         <EditText
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:hint="@string/Hint_Product">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Hint_Product"
+            android:ems="20"
+            android:textSize="40sp"/>
 
-        </EditText>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:orientation="horizontal"
-        android:layout_weight="1"
-        android:layout_margin="16dp">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
+            android:layout_marginTop="25dp"
             android:text="@string/Description"
-            android:textSize="25sp"/>
+            android:textSize="45sp"/>
 
         <EditText
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:hint="@string/Hint_Description">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Hint_Description"
+            android:ems="20"
+            android:textSize="40sp"/>
 
-        </EditText>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:orientation="horizontal"
-        android:layout_weight="1"
-        android:layout_margin="16dp">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/black"
+            android:layout_marginTop="25dp"
             android:text="@string/Cost"
-            android:textSize="25sp" />
+            android:textSize="45sp" />
 
         <EditText
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:hint="@string/Hint_Cost">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Hint_Cost"
+            android:ems="20"
+            android:textSize="40sp"/>
 
-        </EditText>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="66dp"
-        android:layout_marginTop="20dp"
-        android:orientation="horizontal">
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/Enter">
-
-        </Button>
-
+            android:layout_marginTop="25dp"
+            android:text="@string/Enter"
+            android:textSize="34sp"/>
     </LinearLayout>
-
 
 </LinearLayout>

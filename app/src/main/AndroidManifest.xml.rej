@@ -1,9 +1,0 @@
-diff a/app/src/main/AndroidManifest.xml b/app/src/main/AndroidManifest.xml	(rejected hunks)
-@@ -10,6 +10,7 @@
-         android:supportsRtl="true"
-         android:theme="@style/Theme.VentaDeCortinas">
-         <activity
-+            android:name=".RegistroAbonosActivity"
-             android:exported="false" />
-         <activity
-             android:name=".RegistroVendedoresActivity"
