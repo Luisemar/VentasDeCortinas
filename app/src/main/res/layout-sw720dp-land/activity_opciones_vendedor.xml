@@ -53,7 +53,7 @@
             app:layout_constraintTop_toBottomOf="@+id/BtnRArticulos" />
 
         <Button
-            android:id="@+id/ConsultaVentas"
+            android:id="@+id/BtnCVentas"
             android:layout_width="550dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
@@ -76,7 +76,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.51"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/ConsultaVentas" />
+            app:layout_constraintTop_toBottomOf="@+id/BtnCVentas" />
     </LinearLayout>
 
 </LinearLayout>

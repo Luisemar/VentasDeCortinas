@@ -34,9 +34,9 @@
             android:id="@+id/BtnRArticulos"
             android:layout_width="570dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="90dp"
+            android:layout_marginTop="40dp"
             android:text="@string/Articles"
-            android:textSize="24sp"
+            android:textSize="33sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.531"
             app:layout_constraintStart_toStartOf="parent"
@@ -49,19 +49,19 @@
             android:layout_gravity="center_vertical"
             android:layout_marginTop="32dp"
             android:text="@string/Payment"
-            android:textSize="24sp"
+            android:textSize="33sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/BtnRArticulos" />
 
         <Button
-            android:id="@+id/ConsultaVentas"
+            android:id="@+id/BtnCVentas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="32dp"
             android:text="@string/Sales"
-            android:textSize="24sp"
+            android:textSize="33sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.505"
             app:layout_constraintStart_toStartOf="parent"
@@ -74,12 +74,12 @@
             android:layout_gravity="center"
             android:layout_marginTop="90dp"
             android:text="@string/Login"
-            android:textSize="20sp"
+            android:textSize="33sp"
             app:backgroundTint="#E91E63"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="1.51"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/ConsultaVentas" />
+            app:layout_constraintTop_toBottomOf="@+id/BtnCVentas" />
 
     </LinearLayout>
 

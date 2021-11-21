@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VentaDeCortinas">
         <activity
+            android:name=".ListaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Lista"
+            android:exported="false" />
+        <activity
+            android:name=".ListaVentas"
+            android:exported="false" />
+        <activity
             android:name=".OpcionesVendedor"
             android:exported="false" />
         <activity
