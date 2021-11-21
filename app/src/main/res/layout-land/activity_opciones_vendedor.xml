@@ -31,7 +31,7 @@
 
         <Button
             android:id="@+id/BtnRArticulos"
-            android:layout_width="300dp"
+            android:layout_width="310dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:text="@string/Articles"
