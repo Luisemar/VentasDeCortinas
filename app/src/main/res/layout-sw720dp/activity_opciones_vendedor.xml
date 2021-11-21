@@ -30,9 +30,9 @@
 
         <Button
             android:id="@+id/BtnRArticulos"
-            android:layout_width="match_parent"
+            android:layout_width="750dp"
             android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="40dp"
             android:layout_gravity="center"
             android:text="@string/Articles"
             android:textSize="45sp"
@@ -43,7 +43,7 @@
 
         <Button
             android:id="@+id/BtnRAbonos"
-            android:layout_width="match_parent"
+            android:layout_width="750dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:layout_gravity="center"
@@ -55,7 +55,7 @@
 
         <Button
             android:id="@+id/ConsultaVentas"
-            android:layout_width="match_parent"
+            android:layout_width="750dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
             android:layout_gravity="center"
@@ -68,7 +68,7 @@
 
         <Button
             android:id="@+id/BtnISesion"
-            android:layout_width="match_parent"
+            android:layout_width="750dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="100dp"
             android:layout_gravity="center"
