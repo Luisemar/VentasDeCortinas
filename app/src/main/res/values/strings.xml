@@ -30,4 +30,10 @@
     <string name="Options">seller options</string>
     <string name="Login1">Seller Login</string>
     <string name="Registration">Seller Registration</string>
+    <string name="Hello">WELCOME</string>
+    <string name="Error">Invalid username or password</string>
+    <string name="txt_action_search">Search</string>
+    <string name="txt_action_settings">Setting</string>
+    <string name="txt_action_logout">Logout</string>
+
 </resources>

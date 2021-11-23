@@ -30,4 +30,9 @@
     <string name="Options">Opciones Vendedor</string>
     <string name="Login1">Ingreso Vendedor</string>
     <string name="Registration">registro Vendedor</string>
+    <string name="Hello">Bienvenido</string>
+    <string name="Error">Usuario y/o Clave Invalido</string>
+    <string name="txt_action_search">Busqueda</string>
+    <string name="txt_action_settings">Configuracion</string>
+    <string name="txt_action_logout">Cerrar sesion</string>
 </resources>
