@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.EditText
+import android.widget.Toast
 
 class IniciarSesionActivity : AppCompatActivity() {
 
@@ -19,11 +20,15 @@ class IniciarSesionActivity : AppCompatActivity() {
     }
 
     fun onIniSesion(view: android.view.View) {
-        if (edtUsername!!.text.toString() == "e6@email.com") {
-            if (edtPassword!!.text.toString() == "1") {
-                val intento = Intent(this, OpcionesVendedorActivity::class.java)
-                startActivity(intento)
+        var username: String = edtUsername!!.text.toString()
+        var password: String = edtPassword!!.text.toString()
+        if (username == "e6@email.com" && password == "1") {
+            val intento = Intent(this, OpcionesVendedorActivity::class.java)
+            startActivity(intento)
+            Toast.makeText(applicationContext,"WELCOME",Toast.LENGTH_LONG).show()
             }
+        else{
+            Toast.makeText(this,"Invalid username or password",Toast.LENGTH_LONG).show()
         }
     }
 }

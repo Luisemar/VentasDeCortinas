@@ -5,7 +5,8 @@
       <map>
         <entry key="..\:/Ventas/VentaDeCortinas/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Ventas/VentasDeCortinas/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2890625" />
-        <entry key="..\:/Ventas/VentasDeCortinas/app/src/main/res/layout-land/activity_main.xml" value="0.29635416666666664" />
+        <entry key="..\:/Ventas/VentasDeCortinas/app/src/main/res/layout-land/activity_iniciar_sesion.xml" value="0.28229166666666666" />
+        <entry key="..\:/Ventas/VentasDeCortinas/app/src/main/res/layout-land/activity_main.xml" value="0.1" />
         <entry key="..\:/Ventas/VentasDeCortinas/app/src/main/res/layout-land/activity_registro_articulos.xml" value="0.275" />
         <entry key="..\:/Ventas/VentasDeCortinas/app/src/main/res/layout-sw600dp-land/activity_main.xml" value="0.29635416666666664" />
         <entry key="..\:/Ventas/VentasDeCortinas/app/src/main/res/layout-sw600dp-land/activity_registro_articulos.xml" value="0.33" />
