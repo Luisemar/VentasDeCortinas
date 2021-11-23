@@ -37,7 +37,7 @@
             android:textSize="25sp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName9"
+            android:id="@+id/edtUsername"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -54,7 +54,7 @@
             android:textSize="25sp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName7"
+            android:id="@+id/edtPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -71,7 +71,7 @@
             android:textSize="25sp" />
 
         <EditText
-            android:id="@+id/editTextTextPersonName10"
+            android:id="@+id/edtRetPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -85,7 +85,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="25dp"
             android:text="Iniciar sesion"
-            android:textSize="25sp" />
+            android:textSize="25sp"
+            android:onClick="onIniSesion"/>
     </LinearLayout>
 
 </LinearLayout>

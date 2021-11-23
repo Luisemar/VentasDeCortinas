@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onIngVendedor(view: android.view.View) {
-        val intento = Intent(this, OpcionesVendedorActivity::class.java)
-        startActivity(intento)
+                val intento = Intent(this, IniciarSesionActivity::class.java)
+                startActivity(intento)
     }
 }
