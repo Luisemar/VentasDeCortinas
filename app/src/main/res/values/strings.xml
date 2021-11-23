@@ -35,5 +35,6 @@
     <string name="txt_action_search">Search</string>
     <string name="txt_action_settings">Setting</string>
     <string name="txt_action_logout">Logout</string>
+    <string name="Sales1">Register Sales</string>
 
 </resources>

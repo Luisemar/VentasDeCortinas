@@ -35,4 +35,5 @@
     <string name="txt_action_search">Busqueda</string>
     <string name="txt_action_settings">Configuracion</string>
     <string name="txt_action_logout">Cerrar sesion</string>
+    <string name="Sales1">Registar venta</string>
 </resources>

@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/teal_700"
     tools:context=".OpcionesVendedorActivity">
 
     <androidx.appcompat.widget.Toolbar
@@ -48,6 +49,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/Articles"
+            android:textSize="24sp"/>
+
+        <Button
+            android:id="@+id/BtnRVentas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/Sales1"
             android:textSize="24sp"/>
 
         <Button
