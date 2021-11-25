@@ -23,7 +23,8 @@ class IniciarSesionActivity : AppCompatActivity() {
         var username: String = edtUsername!!.text.toString()
         var password: String = edtPassword!!.text.toString()
         if (username == "e6@email.com" && password == "1") {
-            val intento = Intent(this, OpcionesVendedorActivity::class.java)
+//            val intento = Intent(this, OpcionesVendedorActivity::class.java)
+            val intento = Intent(this, TodoFragmentOpVendActivity::class.java)
             startActivity(intento)
             Toast.makeText(applicationContext,"WELCOME",Toast.LENGTH_LONG).show()
             }

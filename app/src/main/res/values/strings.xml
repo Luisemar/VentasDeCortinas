@@ -36,5 +36,7 @@
     <string name="txt_action_settings">Setting</string>
     <string name="txt_action_logout">Logout</string>
     <string name="Sales1">Register Sales</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
