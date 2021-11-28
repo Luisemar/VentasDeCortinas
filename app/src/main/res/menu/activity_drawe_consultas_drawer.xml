@@ -24,5 +24,6 @@
             android:id="@+id/nav_about"
             android:icon="@drawable/ic_launcher_background"
             android:title="About" />
+
     </group>
 </menu>
