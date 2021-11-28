@@ -9,7 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.VentaDeCortinas">
-
+        <activity
+            android:name=".RegistroVentasActivity"
+            android:exported="false"
+            android:theme="@style/Theme.VentaDeCortinas1"/>
+        <activity
+            android:name=".DrawerActivity"
+            android:exported="false"
+            android:label="@string/title_activity_drawer"
+            android:theme="@style/Theme.VentaDeCortinas.NoActionBar" />
         <activity
             android:name=".TodoFragmentOpVendActivity"
             android:exported="false" />
@@ -21,8 +29,8 @@
             android:exported="false" />
         <activity
             android:name=".OpcionesVendedorActivity"
-            android:theme="@style/Theme.VentaDeCortinas1"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.VentaDeCortinas1" />
         <activity
             android:name=".RegistroAbonosActivity"
             android:exported="false" />
@@ -34,8 +42,8 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:theme="@style/Theme.VentaDeCortinas1"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.VentaDeCortinas1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

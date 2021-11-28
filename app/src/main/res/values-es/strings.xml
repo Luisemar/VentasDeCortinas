@@ -18,6 +18,7 @@
     <string name="Repeat">Repite la contraseña</string>
     <string name="Register1">Registrar</string>
     <string name="Articles">Registro Artículos</string>
+    <string name="ArticlesPayment">Registro Artículos-Abonos</string>
     <string name="Payment">Registro Abonos</string>
     <string name="Sales">Consulta Ventas (Listas)</string>
     <string name="Login">Iniciar Sesión</string>
