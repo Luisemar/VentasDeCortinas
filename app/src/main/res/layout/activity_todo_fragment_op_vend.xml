@@ -7,9 +7,5 @@
     android:orientation="vertical"
     tools:context=".TodoFragmentOpVendActivity">
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentContainerView"
-        android:name="com.ventadecortinas.ToDoFragment"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
 </LinearLayout>
+

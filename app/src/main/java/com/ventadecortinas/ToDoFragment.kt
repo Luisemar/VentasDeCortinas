@@ -38,26 +38,41 @@ class ToDoFragment : Fragment() {
         val fragmento: View = inflater.inflate(R.layout.fragment_to_do, container, false)
         val detail1: Button = fragmento.findViewById(R.id.btn_detail_1)
         val detail2: Button = fragmento.findViewById(R.id.btn_detail_2)
-        val detail3: Button = fragmento.findViewById(R.id.btn_detail_3)
+
+
         detail1.setOnClickListener {
             val datos = Bundle()
-            datos.putString("tarea", "Ir al supermercado")
-            datos.putString("hora", "10:00")
-            datos.putString("Lugar", "Exito")
+            datos.putString("tCampo1", "@string/Product")
+            datos.get("hCampo1")
+            datos.putString("tCampo2", "b")
+            datos.get("hCampo2")
+            datos.putString("tCampo3", "a")
+            datos.get("hCampo3")
+            datos.putString("bEnter","Ingreso")
+ //           @string/Product   @string/Description
+
             activity?.supportFragmentManager?.beginTransaction()
                 ?.replace(R.id.fragmentContainerView, DetailFragment::class.java, datos, "datail")
                 ?.addToBackStack("")
                 ?.commit()
         }
-            detail2.setOnClickListener {
-                val datos = Bundle()
-                datos.putString("tarea","Llevar carro a mantenimiento")
-                datos.putString("hora","11:00")
-                datos.putString("Lugar","Taller")
-                activity?.supportFragmentManager?.beginTransaction()
-                    ?.replace(R.id.fragmentContainerView, DetailFragment::class.java, datos, "datail")
-                    ?.addToBackStack("")
-                    ?.commit()
+
+        detail2.setOnClickListener {
+            val datos = Bundle()
+            datos.putString("tCampo1", "@string/Code")
+            datos.get("hCampo1")
+            datos.putString("tCampo2", "@string/Date")
+            datos.get("hCampo2")
+            datos.putString("tCampo3", "@string/Value")
+            datos.get("hCampo3")
+            datos.putString("bEnter","registro")
+
+            activity?.supportFragmentManager?.beginTransaction()
+              ?.replace(R.id.fragmentContainerView, DetailFragment::class.java, datos, "datail")
+
+//                ?.replace(R.id.nav_host_fragment_content_drawer, DetailFragment::class.java, datos, "datail")
+                ?.addToBackStack("")
+                ?.commit()
         }
 
         return fragmento

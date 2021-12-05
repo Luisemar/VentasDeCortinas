@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewTaskFragment" >
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre Vendedor"
+        android:textSize="15sp" />
+
+    <Spinner
+        android:id="@+id/spiTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cedula Vendedor"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edtccVendedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Cedula Vendedor"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fecha Venta"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edtFechaVta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Fecha Venta"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre Cliente"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edtNomCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Nombre Cliente"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cedula Cliente"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edtccCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Cedula Cliente"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Direcion Cliente"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edtDirCliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Direccion Cliente"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Latutud"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edtLatidud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Latitud"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Longitud"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edtLongitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Longitud"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Codigo Cortina"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edtCodigoCortina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Codigo Cortina"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alto Cortina"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edtAltoCotina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Alto Cortina"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Largo Cortina"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edtLargoCortina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Largo Cortina"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valor Venta"
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/edtValorVenta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Valor Venta"
+        android:textSize="12sp" />
+
+
+
+    <Button
+        android:id="@+id/btnNewTask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:textSize="15sp" />
+
+
+
+</LinearLayout>

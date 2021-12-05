@@ -3,33 +3,39 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@id/nav_registroVentas">
 
-    <fragment
-        android:id="@+id/nav_home"
-        android:name="com.ventadecortinas.ui.home.HomeFragment"
-        android:label="@string/menu_home"
-        tools:layout="@layout/fragment_home" />
-
-    <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.ventadecortinas.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
-
-    <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.ventadecortinas.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
-    <fragment
-        android:id="@+id/nav_toDo"
-        android:name="com.ventadecortinas.ToDoFragment"
-        android:label="fragment_to_do"
-        tools:layout="@layout/fragment_to_do" />
     <fragment
         android:id="@+id/nav_about"
         android:name="com.ventadecortinas.AboutFragment"
-        android:label="fragment_about"
+        android:label="About"
         tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/nav_consultas"
+        android:name="com.ventadecortinas.ToDoConsultaFragment"
+        android:label="Consulta Ventas"
+        tools:layout="@layout/fragment_to_do_consulta" >
+        <action
+            android:id="@+id/action_nav_consultas_to_nav_detailConsultas"
+            app:destination="@id/nav_detailConsultas" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_detailConsultas"
+        android:name="com.ventadecortinas.DetailConsultasFragment"
+        android:label="Detalle Ventas"
+        tools:layout="@layout/fragment_detail_consultas" />
+    <fragment
+        android:id="@+id/nav_registroVentas"
+        android:name="com.ventadecortinas.RegistroVentasFragment"
+        android:label="Registro de ventas"
+        tools:layout="@layout/fragment_registro_ventas" />
+    <fragment
+        android:id="@+id/nav_new_task"
+        android:name="com.ventadecortinas.NewTaskFragment"
+        android:label="fragment_new_task"
+        tools:layout="@layout/fragment_new_task" >
+        <action
+            android:id="@+id/action_nav_new_task_to_nav_consultas"
+            app:destination="@id/nav_consultas" />
+    </fragment>
 </navigation>

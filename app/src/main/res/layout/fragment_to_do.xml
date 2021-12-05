@@ -3,85 +3,112 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    tools:context=".ToDoFragment" >
+    tools:context=".ToDoFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_margin="2dp"
-        android:background="#eee"
-        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:gravity="center"
         android:orientation="horizontal"
-        android:padding="10dp">
+        android:layout_marginRight="16dp">
 
-        <TextView
-            android:layout_width="1dp"
+        <ImageView
+            android:id="@+id/imageView9"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="3"
-            android:text="@string/Articles"
-            android:textColor="@color/black"
-            android:textSize="16sp"/>
-
-        <Button
-            android:id="@+id/btn_detail_1"
-            android:layout_width="1dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text=">"
-            android:textSize="16sp"/>
+            android:layout_margin="16dp"
+            app:srcCompat="@drawable/logo" />
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_margin="2dp"
-        android:background="#eee"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
-        android:padding="10dp">
-
-        <TextView
-            android:layout_width="1dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="3"
-            android:text="@string/Payment"
-            android:textColor="@color/black"
-            android:textSize="16sp"/>
-
-        <Button
-            android:id="@+id/btn_detail_2"
-            android:layout_width="1dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text=">"
-            android:textSize="16sp"/>
-    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:layout_margin="2dp"
-        android:background="#eee"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
         android:gravity="center_vertical"
-        android:orientation="horizontal"
-        android:padding="10dp">
+        android:layout_margin="16dp">
 
-        <TextView
-            android:layout_width="1dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="3"
-            android:text="@string/Sales"
-            android:textColor="@color/black"
-            android:textSize="16sp"/>
 
-        <Button
-            android:id="@+id/btn_detail_3"
-            android:layout_width="1dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text=">"
-            android:textSize="16sp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="2dp"
+            android:background="#eee"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/Articles"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+
+            <Button
+                android:id="@+id/btn_detail_1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=">"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="2dp"
+            android:background="#eee"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/Payment"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+
+            <Button
+                android:id="@+id/btn_detail_2"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=">"
+                android:textSize="16sp"/>
+        </LinearLayout>
+
+<!--        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_margin="2dp"
+            android:background="#eee"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+    &lt;!&ndash;        <TextView
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/Sales"
+                android:textColor="@color/black"
+                android:textSize="16sp"/>
+
+    &lt;!&ndash;        <Button
+                android:id="@+id/btn_detail_3"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text=">"
+                android:textSize="16sp"/>&ndash;&gt;&ndash;&gt;
+        </LinearLayout>-->
     </LinearLayout>
 
 </LinearLayout>

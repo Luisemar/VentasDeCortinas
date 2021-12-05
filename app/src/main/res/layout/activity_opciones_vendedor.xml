@@ -49,7 +49,7 @@
             android:id="@+id/BtnRArticulos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/ArticlesPayment"
+            android:text="@string/Sales1"
             android:textSize="24sp"
             android:onClick="onRegArtAbo"/>
 
@@ -58,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="@string/Sales1"
+            android:text="@string/ArticlesPayment"
             android:textSize="24sp"
             android:onClick="onRegVen"/>
 
