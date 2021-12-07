@@ -8,6 +8,10 @@ import android.view.ViewGroup
 import androidx.navigation.Navigation
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.RecyclerView
+import androidx.room.Room
+import com.ventadecortinas.room_database.ToDoDatabase
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -45,15 +49,30 @@ class ToDoConsultaFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         val recyclerTodoList: RecyclerView = view.findViewById(R.id.reciclerTodoList)
         var datos: ArrayList<Task> = ArrayList()
-        datos.add(Task(0, "Vendedor Pedro","1","1","Cliente Carolina",
+        val room: ToDoDatabase =  Room.databaseBuilder(context?.applicationContext!!,
+            ToDoDatabase::class.java,"almacen").build()
+        var todoDao = room.todoDao()
+        runBlocking {
+            launch {
+                var  result = todoDao.getALLTask()
+                for (todo in result){
+                    datos.add(Task(todo.id,todo.NomVendedor,todo.ccVendedor,todo.FechaVta,todo.NomCliente,
+                    todo.ccCliente, todo.DirCliente, todo.Latidud,todo.Longitud,todo.CodigoCortina,
+                    todo.AltoCotina, todo.LargoCortina,todo.ValorVenta))
+                }
+            }
+        }
+/*        datos.add(Task(1, "Vendedor a","1","1","Cliente Carolina",
             "1","1","1","1","1","1","1","1"))
-        datos.add(Task(1, "Vendedor Juan","2","1","Cliente Mileidy",
+        datos.add(Task(2, "Vendedor b","2","1","Cliente Mileidy",
             "1","1","1","1","1","1","1","1"))
-        datos.add(Task(3, "Vendedor Leon","3","1","Cliente Luis",
-            "1","1","1","1","1","1","1","1"))
+        datos.add(Task(3, "Vendedor c","3","1","Cliente Luis",
+            "1","1","1","1","1","1","1","1"))*/
+
         var taskAdapter = TaskAdapter(datos){
             val  datos = Bundle()
-             datos.putString("vendedor", it.seller)
+
+/*             datos.putString("vendedor", it.seller)
             datos.putString("cvendedor", it.cseller)
             datos.putString("fecha", it.date)
             datos.putString("cliente", it.customer)
@@ -64,8 +83,9 @@ class ToDoConsultaFragment : Fragment() {
             datos.putString("codcortinas", it.codcortina)
             datos.putString("altocortina", it.altocortina)
             datos.putString("largocortina", it.largocortina)
-            datos.putString("valorventa", it.valorventa)
+            datos.putString("valorventa", it.valorventa)*/
 
+            datos.putInt("id",it.id)
             Navigation.findNavController(view).navigate(R.id.nav_detailConsultas,datos)
         }
         recyclerTodoList.setHasFixedSize(true)

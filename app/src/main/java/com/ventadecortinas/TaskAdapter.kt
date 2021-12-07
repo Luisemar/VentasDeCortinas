@@ -25,9 +25,9 @@ class TaskAdapter(private val datos: ArrayList<Task>, private val clickListener:
         val task = datos[position]
         val textViewDate: TextView = holder.layout.findViewById(R.id.textViewDate)
         val textViewseller: TextView = holder.layout.findViewById(R.id.textViewseller)
-//        val textViewcustomer: TextView = holder.layout.findViewById(R.id.textViewcustomer)
         textViewDate.text = task.date
         textViewseller.text = task.seller
+
 //        textViewcustomer.text = task.customer
         holder.layout.setOnClickListener{clickListener(task)}
     }

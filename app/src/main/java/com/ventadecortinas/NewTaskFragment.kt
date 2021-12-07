@@ -6,6 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
+import androidx.navigation.NavAction
+import androidx.navigation.Navigation
+import androidx.navigation.Navigator
 import androidx.room.*
 import com.ventadecortinas.room_database.ToDo
 import com.ventadecortinas.room_database.ToDoDatabase
@@ -61,11 +64,11 @@ class NewTaskFragment : Fragment() {
         val btnNewTask: Button = view.findViewById(R.id.btnNewTask)
 //        var tareas = arrayOf("estudiar","Mercar","Hacer Ejercicio")
         var tareas: ArrayList<Task> = ArrayList()
-        tareas.add(Task(0, "Fecha1","NombreCliente1","Carolina ","1",
+        tareas.add(Task(1, "Vendedor Pedro","1"," ","Carolina",
             "1","1","1","1","1","1","1","1"))
-        tareas.add(Task(1, "Fecha2","NombreCliente2","Mileidy ","1",
+        tareas.add(Task(2, "Vendedor Juan","2"," ","Mileidy",
             "1","1","1","1","1","1","1","1"))
-        tareas.add(Task(2, "Fecha3","NombreCliente3","Luis ","1",
+        tareas.add(Task(3, "Vendedor Leon","3"," ","Luis",
             "1","1","1","1","1","1","1","1"))
         val taskAdapter = ArrayAdapter(context?.applicationContext!!,android.R.layout.simple_spinner_item, tareas)
         taskAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
@@ -73,7 +76,7 @@ class NewTaskFragment : Fragment() {
         btnNewTask.setOnClickListener {
           var vendedorSelecionado: Task = spiTask.selectedItem as Task
 //            Toast.makeText(context?.applicationContext, spiTask.selectedItem.toString(), Toast.LENGTH_LONG).show()
-        val room: ToDoDatabase =  Room.databaseBuilder(context?.applicationContext!!,ToDoDatabase::class.java,"ToDoDataBase").build()
+        val room: ToDoDatabase =  Room.databaseBuilder(context?.applicationContext!!,ToDoDatabase::class.java,"almacen").build()
         var todoDao = room.todoDao()
         val  task = ToDo(0,edtFecgaVenta.text.toString(),edtccVendedor.text.toString(),vendedorSelecionado.seller,
             edtccCliente.text.toString(), edtNomCliente.text.toString(),edtDirCliente.text.toString(),edtLatidud.text.toString(),
@@ -82,10 +85,11 @@ class NewTaskFragment : Fragment() {
         runBlocking {
             launch {
                 val result = todoDao.insertTask(task)
+                Toast.makeText(context?.applicationContext!!,"" + result,Toast.LENGTH_LONG).show()
             }
         }
 
-
+        Navigation.findNavController(view).navigate(R.id.nav_consultas)
  //           Toast.makeText(context?.applicationContext, vendedorSelecionado.customer, Toast.LENGTH_LONG).show()
 
         }

@@ -6,6 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
+import androidx.room.Room
+import com.ventadecortinas.room_database.ToDoDatabase
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -36,22 +40,58 @@ class DetailConsultasFragment : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val fragmento =  inflater.inflate(R.layout.fragment_detail_consultas, container, false)
-        var fecha = requireArguments().getString("fecha")
+
+/*      var fecha = requireArguments().getString("fecha")
         var vendedor = requireArguments().getString("vendedor")
         var cliente = requireArguments().getString("cliente")
-
 
         var txtViewFecha: TextView = fragmento.findViewById(R.id.txtView_A)
         var txtViewVendedor: TextView = fragmento.findViewById(R.id.txtView_B)
         var txtViewCliente: TextView = fragmento.findViewById(R.id.txtView_C)
 
-
         txtViewFecha.text = fecha
         txtViewVendedor.text = vendedor
-        txtViewCliente.text = cliente
-
+        txtViewCliente.text = cliente*/
 
         return fragmento
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        var txtViewNomVendedor: TextView = view.findViewById(R.id.txtViewNomVendedor)
+        var txtViewccVendedor: TextView = view.findViewById(R.id.txtViewccVendedor)
+        var txtViewFechaVta: TextView = view.findViewById(R.id.txtViewFechaVta)
+        var txtViewNomCliente: TextView = view.findViewById(R.id.txtViewNomCliente)
+        var txtViewccCliente: TextView = view.findViewById(R.id.txtViewccCliente)
+        var txtViewDirCliente: TextView = view.findViewById(R.id.txtViewDirCliente)
+        var txtViewLatidud: TextView = view.findViewById(R.id.txtViewLatidud)
+        var txtViewLongitud: TextView = view.findViewById(R.id.txtViewLongitud)
+        var txtViewCodigoCortina: TextView = view.findViewById(R.id.txtViewCodigoCortina)
+        var txtViewAltoCotina: TextView = view.findViewById(R.id.txtViewAltoCotina)
+        var txtViewLargoCortina: TextView = view.findViewById(R.id.txtViewLargoCortina)
+        var txtViewValorVenta: TextView = view.findViewById(R.id.txtViewValorVenta)
+        var id = requireArguments().getInt("id")
+        val room: ToDoDatabase =  Room.databaseBuilder(context?.applicationContext!!,
+            ToDoDatabase::class.java,"almacen").build()
+        var todoDao = room.todoDao()
+        runBlocking {
+            launch {
+                var result = todoDao.findById(id)
+                txtViewNomVendedor.text = result.NomVendedor
+                txtViewccVendedor.text = result.ccVendedor
+                txtViewFechaVta.text = result.FechaVta
+                txtViewNomCliente.text = result.NomCliente
+                txtViewccCliente.text = result.ccCliente
+                txtViewDirCliente.text = result.DirCliente
+                txtViewLatidud.text = result.Latidud
+                txtViewLongitud.text = result.Longitud
+                txtViewCodigoCortina.text = result.CodigoCortina
+                txtViewAltoCotina.text = result.AltoCotina
+                txtViewLargoCortina.text = result.LargoCortina
+                txtViewValorVenta.text = result.ValorVenta
+
+            }
+        }
     }
 
     companion object {
