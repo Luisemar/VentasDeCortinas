@@ -18,4 +18,5 @@ class OpcionesVendedorActivity : AppCompatActivity() {
       val intento = Intent(this, ConsultaVentasActivity::class.java)
       startActivity(intento)
     }
+
 }
